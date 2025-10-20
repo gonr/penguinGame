@@ -51,11 +51,11 @@ function HomeScreen({ navigation }) {
         style={styles.flex}
       >
         <View style={styles.container}>
-          <Text style={styles.label}>Open URL</Text>
+          <Text style={styles.label}>열고 싶은 URL</Text>
           <TextInput
             value={url}
             onChangeText={setUrl}
-            placeholder="예: https://naver.com 또는 naver.com"
+            placeholder="예: https://gluwa.com 또는 gluwa.com"
             autoCapitalize="none"
             autoCorrect={false}
             keyboardType="url"
